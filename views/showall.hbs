@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" href="/stylesheet/styles.css">
+    <body>
+        <div class="list-container" >
+
+        </div>
+        <h1>Contact List</h1>
+        {{#each phonebook}}
+        <ul>
+            <li>
+                <a href="/contacts/{{this._id}}">{{this.name}}</a>
+            </li>
+        </ul>
+            
+            {{/each}}
+            
+    </body>
+</html>

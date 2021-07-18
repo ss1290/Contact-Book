@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <link rel="stylesheet" href="/stylesheet/styles.css">
+    <body>
+        <h1>Contact Details</h1>
+        <table id="my table">
+            <thead>
+                <tr>
+                    <th id="message3"></th>
+                    <th id="message4"></th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td id="message1"></td>
+                    <td id="message2"></td>
+                </tr>
+            </tbody>
+        </table>
+        <script>
+            document.getElementById('message1').textContent="{{name}}"
+            document.getElementById('message2').textContent={{phone}}
+            document.getElementById('message3').textContent="Name"
+            document.getElementById('message4').textContent="Phone Number"
+        </script>
+    </body>
+</html>

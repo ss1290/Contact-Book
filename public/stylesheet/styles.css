@@ -1,0 +1,107 @@
+body {
+    color:Blue;
+    font-family: arial;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background:green;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+table,th,td {
+    font-size: 20px;
+    margin-top: 16px;
+    border: 1px solid black;
+    color: greenyellow;
+    	
+}
+button {
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 18px;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    transition: all ease-in-out 0.1s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 200px;
+}
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: auto;
+    overflow-y: hidden;
+}
+ul::-webkit-scrollbar {
+    visibility: hidden;
+}
+li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    background-image: linear-gradient(to right, yellow 0%, #092b41 100%);
+    justify-content: space-between;
+    /* opacity: 0.8; */
+    align-items: center;
+    margin: 8px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 10px;
+    transition: box-shadow ease-in-out 0.1s;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 6px 3px white;
+}
+
+a {
+    padding:40 px;
+    cursor: pointer;
+    text-decoration:red;
+    color:red;
+    margin-top:5px;
+}
